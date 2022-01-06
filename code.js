@@ -49,7 +49,7 @@ function draw() {
   var shooty = World.mouseY - poolball.y;
 poolball.pointTo(World.mouseX,World.mouseY );
   if(shoot === true){
-  if(mouseWentDown("leftButton")||keyDown("e")){
+  if(mouseWentDown("leftButton")||keyDown("space")){
     playSpeech("pool ball", "male", "English");
     
     poolball.rotation = stick.rotation;
